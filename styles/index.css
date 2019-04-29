@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    width: 100vw;
+
+}
+
+.pageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color:white;
+    border-bottom: 2px solid gainsboro;
+}
+
+.headerContainer > h3{
+    font-family: "Avenir Next";
+}
+
+.backButtonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 3px 8px;
+    font-family: "Avenir Next";
+    font-size: medium;
+    color: white;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    background-color: #000000;
+}
+
+.backButtonContainer >img{
+    height: 15px;
+    width: 15px;
+}
+
+.thumbnailContainer{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../assets/images/background.png");
+    color: white;
+}
+
+.bodyImageContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px){
+    .bodyImageContainer > img{
+        margin: 10px;
+        border: 5px solid white;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .bodyImageContainer > img{
+        margin: 10px;
+        border: 5px solid white;
+        width: 300px;
+    }
+}
+
+
+.bodyImageContainer > img{
+    margin: 10px;
+    border: 5px solid white;
+
+}
+
+.addressContainer{
+    margin-top: 20px;
+}
+
+.addressHeader{
+    font-family: "Avenir Next";
+    margin: 5px 0;
+}
+
+.addressBody{
+    font-family: "Avenir Next";
+    color: gainsboro;
+
+}
+
+.addressPhone{
+    font-family: "Avenir Next";
+
+}
+
+.bodyInfoContainer {
+    margin: 50px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operationsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.bodyOperations {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    font-family: "Avenir Next";
+    font-weight: bold;
+    border: 1px solid black;
+    color: black;
+    width: 300px;
+    padding: 5px;
+}
+
+.bodyOperationsTop{
+    border-radius: 3px 3px 0 0;
+}
+
+.bodyOperationsBottom{
+    border-radius: 0 0 3px 3px;
+
+}
+
+.bodyOperations >img{
+    height: 20px;
+    width: 20px;
+}
